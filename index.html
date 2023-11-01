@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조이컨트리클럽</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <!-- #wrap>#left+#right^#footer -->
+    <div id="wrap">
+        <div id="left">
+            <!-- .logo+nav -->
+            <div class="logo">
+                <!-- a>img -->
+                <a href="#"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <nav>
+                <!-- ul.gnb>li*4>a[href="#"]{버튼$}+ul.sub>li>*4>a[href="#"]{s버튼$} -->
+                <ul class="gnb">
+                    <li>
+                        <a href="#">버튼1</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼2</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼3</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼4</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- .spot>a[href="#"]*2 -->
+                <div class="spot">
+                    <a href="#">로그인</a> | 
+                    <a href="#">회원가입</a>
+                </div>
+            </nav>
+        </div>
+        <div id="right">
+            <!-- #slide+#link+#banner+#recent -->
+            <div id="slide">
+                <!-- ul>li*4>a[href="#"]>div.text -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="text">JOY CC는 아름다운 추억과 감동을 전합니다.</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="text">Joy CC는 고객이 머무는 시간을 최고의 가치로 만들어 갑니다.</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="text">고객 한분한분을 최고의 VIP로 품격있는 JOY 컨트리클럽!</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="text">JOY CC는 아름다운 추억과 감동을 전합니다.</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="link">
+                <!-- ul>li*3>a[href="#"]>img[src="img/link$.png" alt="바로가기$"] -->
+                <ul>
+                    <li><a href="#"><img src="img/link1.png" alt="바로가기1">예약하기</a></li>
+                    <li><a href="#"><img src="img/link2.png" alt="바로가기2">코스보기</a></li>
+                    <li><a href="#"><img src="img/link3.png" alt="바로가기3">이용요금</a></li>
+                </ul>
+            </div>
+            <div id="banner">
+                <!-- ul>li*3>a[href="#"] -->
+                <ul>
+                    <li><a href="#">
+                        <img src="img/banner.png" alt="배너">
+                    </a></li>
+                    <li><a href="#">
+                        <h3>
+                            골프백 배송 서비스 할인 제휴 안내
+                        </h3>
+                        이제 두 손 가볍게 아난티 클럽 제주로 골프 치러 오세요. <br>
+                        아난티 클럽 제주 이용 고객님께 골프백 배송 서비스 할인 혜택을 드립니다.
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/next.png" alt="다음">
+                    </a></li>
+                </ul>
+                
+            </div>
+            <div id="recent">
+                <!-- ul.tab>li*2>a[href="#"] -->
+                <ul class="tab">
+                    <li class="on"><a href="#">공지사항</a></li>
+                    <li><a href="#">갤러리</a></li>
+                </ul>
+                <!-- ul.notice>li*4>a[href="#"]>div.subject+div.date -->
+                <ul class="notice">
+                    <li>
+                        <a href="#">
+                            <div class="subject">9월 예약 오픈 안내	</div>
+                            <div class="date">2023-07-01</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="subject">8월 예약 오픈 안내	</div>
+                            <div class="date">2023-06-01</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="subject">2인 라운드 운영 안내	</div>
+                            <div class="date">2023-05-25</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="subject">하절기 운영안내		</div>
+                            <div class="date">2023-05-20</div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- ul.gallery>li*3>a[href="#"]>img[src="img/gallery$$.jpg" alt="갤러리$"] -->
+                <ul class="gallery">
+                    <li><a href="#"><img src="img/gallery01.jpg" alt="갤러리1">JOYFul 코스</a></li>
+                    <li><a href="#"><img src="img/gallery02.jpg" alt="갤러리2">Frendship 코스</a></li>
+                    <li><a href="#"><img src="img/gallery03.jpg" alt="갤러리3">Family 코스</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="f_logo">
+            <a href="#"><img src="img/logo.png" alt="풋터로고"></a>
+        </div>
+        <div class="copy">
+            (주)조이 컨트리클럽 | 전남 순천시 별량면 오실길 333 | 전화번호 061-740-8000 | 사업자등록번호 120-81-28198 <br>
+            COPYRIGHT ⓒ JOY COUNTRY CLUB. ALL RIGHTS RESERVED.
+        </div>
+        <div class="sns">
+            <!-- ul>li*3>a[href="#"]>img -->
+            <ul>
+                <li><a href="#"><img src="img/kakaoplus.png" alt="카카오플러스" title="카카오플러스"></a></li>
+                <li><a href="#"><img src="img/instagram.png" alt="인스타그램" title="인스타그램"></a></li>
+                <li><a href="#"><img src="img/facebook.png" alt="페이스북" title="페이스북"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
